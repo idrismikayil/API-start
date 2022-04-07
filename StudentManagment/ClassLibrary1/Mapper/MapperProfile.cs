@@ -13,8 +13,12 @@ namespace Data.Mapper
     {
         public MapperProfile()
         {
-            CreateMap<Student, StudentDto>().ForMember(s => s.FirstName, s => s.MapFrom(src => src.Name))
-                .ForMember(s => s.LastName, s => s.MapFrom(src => src.Surname));
+            CreateMap<Student, StudentDto>()
+                .ForMember(s => s.FirstName, s => s.MapFrom(src => src.Name))
+                .ForMember(s => s.LastName, s => s.MapFrom(src => src.Surname))
+                .ReverseMap();
+
+            CreateMap<Student, StudentPostDto>().ReverseMap();
         }
     }
 }

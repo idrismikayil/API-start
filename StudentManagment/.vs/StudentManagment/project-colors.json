@@ -15,7 +15,17 @@
       "ProjectGuid": "300efc94-f999-4885-9911-34bc670cfa00",
       "DisplayName": "Data",
       "ColorIndex": 2
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    },
+    "f504daca-d377-451d-8eac-62e60987df63": {
+      "ProjectGuid": "f504daca-d377-451d-8eac-62e60987df63",
+      "DisplayName": "Authentication",
+      "ColorIndex": 3
     }
   },
-  "NextColorIndex": 3
+  "NextColorIndex": 4
 }
